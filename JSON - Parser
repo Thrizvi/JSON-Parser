@@ -1,0 +1,1142 @@
+var jsonData = [
+    {
+        "_ref": "member/b25lLnZpcnR1YWxfbm9kZSQw:bkc-infoblox03.nseroot.com", 
+        "config_addr_type": "IPV4", 
+        "host_name": "bkc-infoblox03.nseroot.com", 
+        "node_info": [
+            {
+                "ha_status": "ACTIVE", 
+                "host_platform": "Physical", 
+                "hwid": "1405202103701939", 
+                "hwmodel": "", 
+                "hwtype": "IB-1415", 
+                "hypervisor": "NA", 
+                "lan2_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "lan_ha_port_setting": {
+                    "ha_ip_address": "172.20.2.7", 
+                    "ha_port_setting": {
+                        "auto_port_setting_enabled": true, 
+                        "speed": "10"
+                    }, 
+                    "lan_port_setting": {
+                        "auto_port_setting_enabled": true
+                    }, 
+                    "mgmt_lan": "172.20.2.5"
+                }, 
+                "mgmt_network_setting": {
+                    "address": "172.20.215.20", 
+                    "dscp": 0, 
+                    "gateway": "172.20.215.3", 
+                    "subnet_mask": "255.255.255.0", 
+                    "use_dscp": false
+                }, 
+                "mgmt_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "paid_nios": false, 
+                "physical_oid": "0", 
+                "service_status": [
+                    {
+                        "description": "Running", 
+                        "service": "NODE_STATUS", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "3% - Primary drive usage is OK.", 
+                        "service": "DISK_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.20.2.5", 
+                        "service": "ENET_LAN", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.20.2.7", 
+                        "service": "ENET_HA", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.20.215.20", 
+                        "service": "ENET_MGMT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Online", 
+                        "service": "REPLICATION", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "20% - Database capacity usage is OK.", 
+                        "service": "DB_OBJECT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 1: 9300 RPM", 
+                        "service": "FAN1", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 2: 9300 RPM", 
+                        "service": "FAN2", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 3: 9200 RPM", 
+                        "service": "FAN3", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 4: 9200 RPM", 
+                        "service": "FAN4", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 5: 9100 RPM", 
+                        "service": "FAN5", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 6: 9200 RPM", 
+                        "service": "FAN6", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Power1 (AC) OK", 
+                        "service": "POWER1", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Power2 (AC) OK", 
+                        "service": "POWER2", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "NTP_SYNC", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "CPU_TEMP: +25.00 C", 
+                        "service": "CPU1_TEMP", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "SYS_TEMP: +24.00 C", 
+                        "service": "SYS_TEMP", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 28%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "OSPF", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "OSPF6", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BGP", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BFD", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "No Core Files", 
+                        "service": "CORE_FILES", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 28%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "12% - System memory usage is OK.", 
+                        "service": "MEMORY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - System swap space usage is OK.", 
+                        "service": "SWAP_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Discovery capacity usage is OK.", 
+                        "service": "DISCOVERY_CAPACITY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "VPN_CERT", 
+                        "status": "WORKING"
+                    }
+                ], 
+                "v6_mgmt_network_setting": {
+                    "auto_router_config_enabled": false, 
+                    "dscp": 0, 
+                    "enabled": false, 
+                    "use_dscp": false
+                }
+            }, 
+            {
+                "ha_status": "PASSIVE", 
+                "host_platform": "Physical", 
+                "hwid": "1405202103702090", 
+                "hwmodel": "", 
+                "hwtype": "IB-1415", 
+                "hypervisor": "NA", 
+                "lan2_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "lan_ha_port_setting": {
+                    "ha_ip_address": "172.20.2.8", 
+                    "ha_port_setting": {
+                        "auto_port_setting_enabled": true, 
+                        "speed": "10"
+                    }, 
+                    "lan_port_setting": {
+                        "auto_port_setting_enabled": true
+                    }, 
+                    "mgmt_lan": "172.20.2.6"
+                }, 
+                "mgmt_network_setting": {
+                    "address": "172.20.215.21", 
+                    "dscp": 0, 
+                    "gateway": "172.20.215.3", 
+                    "subnet_mask": "255.255.255.0", 
+                    "use_dscp": false
+                }, 
+                "mgmt_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "paid_nios": false, 
+                "physical_oid": "1", 
+                "service_status": [
+                    {
+                        "description": "Running", 
+                        "service": "NODE_STATUS", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "3% - Primary drive usage is OK.", 
+                        "service": "DISK_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.20.2.6", 
+                        "service": "ENET_LAN", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.20.2.8", 
+                        "service": "ENET_HA", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.20.215.21", 
+                        "service": "ENET_MGMT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Online", 
+                        "service": "REPLICATION", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "20% - Database capacity usage is OK.", 
+                        "service": "DB_OBJECT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 1: 9600 RPM", 
+                        "service": "FAN1", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 2: 9300 RPM", 
+                        "service": "FAN2", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 3: 9100 RPM", 
+                        "service": "FAN3", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 4: 9400 RPM", 
+                        "service": "FAN4", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 5: 9400 RPM", 
+                        "service": "FAN5", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 6: 9400 RPM", 
+                        "service": "FAN6", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Power1 (AC) OK", 
+                        "service": "POWER1", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Power2 (AC) OK", 
+                        "service": "POWER2", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "NTP_SYNC", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "CPU_TEMP: +22.00 C", 
+                        "service": "CPU1_TEMP", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "SYS_TEMP: +25.00 C", 
+                        "service": "SYS_TEMP", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 6%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "OSPF", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "OSPF6", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BGP", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BFD", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "No Core Files", 
+                        "service": "CORE_FILES", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 6%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "2% - System memory usage is OK.", 
+                        "service": "MEMORY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - System swap space usage is OK.", 
+                        "service": "SWAP_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Discovery capacity usage is OK.", 
+                        "service": "DISCOVERY_CAPACITY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "PASSIVE_HA_CONNECTIVITY", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "VPN_CERT", 
+                        "status": "WORKING"
+                    }
+                ], 
+                "v6_mgmt_network_setting": {
+                    "auto_router_config_enabled": false, 
+                    "dscp": 0, 
+                    "enabled": false, 
+                    "use_dscp": false
+                }
+            }
+        ], 
+        "platform": "INFOBLOX", 
+        "service_type_configuration": "ALL_V4"
+    }, 
+    {
+        "_ref": "member/b25lLnZpcnR1YWxfbm9kZSQx:bcp-infoblox03.nseroot.com", 
+        "config_addr_type": "IPV4", 
+        "host_name": "bcp-infoblox03.nseroot.com", 
+        "node_info": [
+            {
+                "ha_status": "ACTIVE", 
+                "host_platform": "Physical", 
+                "hwid": "1405202103702137", 
+                "hwmodel": "", 
+                "hwtype": "IB-1415", 
+                "hypervisor": "NA", 
+                "lan2_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "lan_ha_port_setting": {
+                    "ha_ip_address": "172.24.2.7", 
+                    "ha_port_setting": {
+                        "auto_port_setting_enabled": true, 
+                        "speed": "10"
+                    }, 
+                    "lan_port_setting": {
+                        "auto_port_setting_enabled": true
+                    }, 
+                    "mgmt_lan": "172.24.2.5"
+                }, 
+                "mgmt_network_setting": {
+                    "address": "172.24.215.20", 
+                    "dscp": 0, 
+                    "gateway": "172.24.215.3", 
+                    "subnet_mask": "255.255.255.0", 
+                    "use_dscp": false
+                }, 
+                "mgmt_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "paid_nios": false, 
+                "physical_oid": "2", 
+                "service_status": [
+                    {
+                        "description": "Running", 
+                        "service": "NODE_STATUS", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "3% - Primary drive usage is OK.", 
+                        "service": "DISK_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.24.2.5", 
+                        "service": "ENET_LAN", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.24.2.7", 
+                        "service": "ENET_HA", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.24.215.20", 
+                        "service": "ENET_MGMT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Online", 
+                        "service": "REPLICATION", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "20% - Database capacity usage is OK.", 
+                        "service": "DB_OBJECT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 1: 9100 RPM", 
+                        "service": "FAN1", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 2: 9500 RPM", 
+                        "service": "FAN2", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 3: 9100 RPM", 
+                        "service": "FAN3", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 4: 9400 RPM", 
+                        "service": "FAN4", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 5: 9500 RPM", 
+                        "service": "FAN5", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 6: 9000 RPM", 
+                        "service": "FAN6", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Power1 (AC) OK", 
+                        "service": "POWER1", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Power2 (AC) OK", 
+                        "service": "POWER2", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "NTP_SYNC", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "CPU_TEMP: +22.00 C", 
+                        "service": "CPU1_TEMP", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "SYS_TEMP: +23.00 C", 
+                        "service": "SYS_TEMP", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 16%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "OSPF", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "OSPF6", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BGP", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BFD", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "No Core Files", 
+                        "service": "CORE_FILES", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 16%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "3% - System memory usage is OK.", 
+                        "service": "MEMORY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - System swap space usage is OK.", 
+                        "service": "SWAP_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Discovery capacity usage is OK.", 
+                        "service": "DISCOVERY_CAPACITY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "VPN_CERT", 
+                        "status": "WORKING"
+                    }
+                ], 
+                "v6_mgmt_network_setting": {
+                    "auto_router_config_enabled": false, 
+                    "dscp": 0, 
+                    "enabled": false, 
+                    "use_dscp": false
+                }
+            }, 
+            {
+                "ha_status": "PASSIVE", 
+                "host_platform": "Physical", 
+                "hwid": "1405202103701864", 
+                "hwmodel": "", 
+                "hwtype": "IB-1415", 
+                "hypervisor": "NA", 
+                "lan2_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "lan_ha_port_setting": {
+                    "ha_ip_address": "172.24.2.8", 
+                    "ha_port_setting": {
+                        "auto_port_setting_enabled": true, 
+                        "speed": "10"
+                    }, 
+                    "lan_port_setting": {
+                        "auto_port_setting_enabled": true
+                    }, 
+                    "mgmt_lan": "172.24.2.6"
+                }, 
+                "mgmt_network_setting": {
+                    "address": "172.24.215.21", 
+                    "dscp": 0, 
+                    "gateway": "172.24.215.3", 
+                    "subnet_mask": "255.255.255.0", 
+                    "use_dscp": false
+                }, 
+                "mgmt_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "paid_nios": false, 
+                "physical_oid": "3", 
+                "service_status": [
+                    {
+                        "description": "Running", 
+                        "service": "NODE_STATUS", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "3% - Primary drive usage is OK.", 
+                        "service": "DISK_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.24.2.6", 
+                        "service": "ENET_LAN", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.24.2.8", 
+                        "service": "ENET_HA", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.24.215.21", 
+                        "service": "ENET_MGMT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Online", 
+                        "service": "REPLICATION", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "20% - Database capacity usage is OK.", 
+                        "service": "DB_OBJECT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 1: 9600 RPM", 
+                        "service": "FAN1", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 2: 9700 RPM", 
+                        "service": "FAN2", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 3: 9400 RPM", 
+                        "service": "FAN3", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 4: 9400 RPM", 
+                        "service": "FAN4", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 5: 9500 RPM", 
+                        "service": "FAN5", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "FAN 6: 9200 RPM", 
+                        "service": "FAN6", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Power1 (AC) OK", 
+                        "service": "POWER1", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Power2 (AC) OK", 
+                        "service": "POWER2", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "NTP_SYNC", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "CPU_TEMP: +24.00 C", 
+                        "service": "CPU1_TEMP", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "SYS_TEMP: +22.00 C", 
+                        "service": "SYS_TEMP", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 5%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "OSPF", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "OSPF6", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BGP", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BFD", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "No Core Files", 
+                        "service": "CORE_FILES", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 5%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "2% - System memory usage is OK.", 
+                        "service": "MEMORY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - System swap space usage is OK.", 
+                        "service": "SWAP_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Discovery capacity usage is OK.", 
+                        "service": "DISCOVERY_CAPACITY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "PASSIVE_HA_CONNECTIVITY", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "VPN_CERT", 
+                        "status": "WORKING"
+                    }
+                ], 
+                "v6_mgmt_network_setting": {
+                    "auto_router_config_enabled": false, 
+                    "dscp": 0, 
+                    "enabled": false, 
+                    "use_dscp": false
+                }
+            }
+        ], 
+        "platform": "INFOBLOX", 
+        "service_type_configuration": "ALL_V4"
+    }, 
+    {
+        "_ref": "member/b25lLnZpcnR1YWxfbm9kZSQ2:bkc-infoblox03-reporting.nseroot.com", 
+        "config_addr_type": "IPV4", 
+        "host_name": "bkc-infoblox03-reporting.nseroot.com", 
+        "node_info": [
+            {
+                "ha_status": "NOT_CONFIGURED", 
+                "host_platform": "VMware", 
+                "hwid": "42152DC153CB2F28E9EFAFBBDFFF0C78", 
+                "hwmodel": "", 
+                "hwtype": "IB-V5005", 
+                "hypervisor": "VMware", 
+                "lan2_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "lan_ha_port_setting": {
+                    "ha_port_setting": {
+                        "auto_port_setting_enabled": true, 
+                        "speed": "10"
+                    }, 
+                    "lan_port_setting": {
+                        "auto_port_setting_enabled": true
+                    }
+                }, 
+                "mgmt_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "paid_nios": false, 
+                "physical_oid": "8", 
+                "service_status": [
+                    {
+                        "description": "Running", 
+                        "service": "NODE_STATUS", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "9% - Primary drive usage is OK.", 
+                        "service": "DISK_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.20.229.125", 
+                        "service": "ENET_LAN", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Online", 
+                        "service": "REPLICATION", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Database capacity usage is OK.", 
+                        "service": "DB_OBJECT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "NTP_SYNC", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "CPU Usage: 6%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "OSPF", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "OSPF6", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BGP", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BFD", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "No Core Files", 
+                        "service": "CORE_FILES", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 6%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "1% - System memory usage is OK.", 
+                        "service": "MEMORY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - System swap space usage is OK.", 
+                        "service": "SWAP_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Discovery capacity usage is OK.", 
+                        "service": "DISCOVERY_CAPACITY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "VPN_CERT", 
+                        "status": "WORKING"
+                    }
+                ], 
+                "v6_mgmt_network_setting": {
+                    "auto_router_config_enabled": false, 
+                    "enabled": false
+                }
+            }
+        ], 
+        "platform": "VNIOS", 
+        "service_type_configuration": "ALL_V4"
+    }, 
+    {
+        "_ref": "member/b25lLnZpcnR1YWxfbm9kZSQ3:bcp-infoblox03-reporting.nseroot.com", 
+        "config_addr_type": "IPV4", 
+        "host_name": "bcp-infoblox03-reporting.nseroot.com", 
+        "node_info": [
+            {
+                "ha_status": "NOT_CONFIGURED", 
+                "host_platform": "VMware", 
+                "hwid": "4209E577C883F8AD2BE380651A5E147F", 
+                "hwmodel": "", 
+                "hwtype": "IB-V5005", 
+                "hypervisor": "VMware", 
+                "lan2_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "lan_ha_port_setting": {
+                    "ha_port_setting": {
+                        "auto_port_setting_enabled": true, 
+                        "speed": "10"
+                    }, 
+                    "lan_port_setting": {
+                        "auto_port_setting_enabled": true
+                    }
+                }, 
+                "mgmt_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "paid_nios": false, 
+                "physical_oid": "9", 
+                "service_status": [
+                    {
+                        "description": "Running", 
+                        "service": "NODE_STATUS", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "10% - Primary drive usage is OK.", 
+                        "service": "DISK_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.24.228.105", 
+                        "service": "ENET_LAN", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Online", 
+                        "service": "REPLICATION", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Database capacity usage is OK.", 
+                        "service": "DB_OBJECT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "NTP_SYNC", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "CPU Usage: 13%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "OSPF", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "OSPF6", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BGP", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BFD", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "No Core Files", 
+                        "service": "CORE_FILES", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 13%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "1% - System memory usage is OK.", 
+                        "service": "MEMORY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - System swap space usage is OK.", 
+                        "service": "SWAP_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Discovery capacity usage is OK.", 
+                        "service": "DISCOVERY_CAPACITY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "VPN_CERT", 
+                        "status": "WORKING"
+                    }
+                ], 
+                "v6_mgmt_network_setting": {
+                    "auto_router_config_enabled": false, 
+                    "enabled": false
+                }
+            }
+        ], 
+        "platform": "VNIOS", 
+        "service_type_configuration": "ALL_V4"
+    }, 
+    {
+        "_ref": "member/b25lLnZpcnR1YWxfbm9kZSQ4:ndtelsrv.nseroot.com", 
+        "config_addr_type": "IPV4", 
+        "host_name": "ndtelsrv.nseroot.com", 
+        "node_info": [
+            {
+                "ha_status": "NOT_CONFIGURED", 
+                "host_platform": "VMware", 
+                "hwid": "423001AE8F7F5B279722397B8C584150", 
+                "hwmodel": "", 
+                "hwtype": "ND-V1405", 
+                "hypervisor": "VMware", 
+                "lan2_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "lan_ha_port_setting": {
+                    "ha_port_setting": {
+                        "auto_port_setting_enabled": true, 
+                        "speed": "10"
+                    }, 
+                    "lan_port_setting": {
+                        "auto_port_setting_enabled": true
+                    }
+                }, 
+                "mgmt_physical_setting": {
+                    "auto_port_setting_enabled": true
+                }, 
+                "paid_nios": false, 
+                "physical_oid": "10", 
+                "service_status": [
+                    {
+                        "description": "Running", 
+                        "service": "NODE_STATUS", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "7% - Primary drive usage is OK.", 
+                        "service": "DISK_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "172.20.192.29", 
+                        "service": "ENET_LAN", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "Online", 
+                        "service": "REPLICATION", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - Database capacity usage is OK.", 
+                        "service": "DB_OBJECT", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "NTP_SYNC", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "CPU Usage: 15%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "OSPF", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "OSPF6", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BGP", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "service": "BFD", 
+                        "status": "INACTIVE"
+                    }, 
+                    {
+                        "description": "No Core Files", 
+                        "service": "CORE_FILES", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "CPU Usage: 15%", 
+                        "service": "CPU_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "28% - System memory usage is OK.", 
+                        "service": "MEMORY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "0% - System swap space usage is OK.", 
+                        "service": "SWAP_USAGE", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "description": "1% - Discovery capacity usage is OK.", 
+                        "service": "DISCOVERY_CAPACITY", 
+                        "status": "WORKING"
+                    }, 
+                    {
+                        "service": "VPN_CERT", 
+                        "status": "WORKING"
+                    }
+                ], 
+                "v6_mgmt_network_setting": {
+                    "auto_router_config_enabled": false, 
+                    "enabled": false
+                }
+            }
+        ], 
+        "platform": "VNIOS", 
+        "service_type_configuration": "ALL_V4"
+    }
+]
+
+for (var i = 0; i < jsonData.length; i++) {
+    var hostName = jsonData[i].host_name;
+    gs.info("Host Name: " + hostName);
+
+    for (var j = 0; j < jsonData[i].node_info.length; j++) {
+        for (var k = 0; k < jsonData[i].node_info[j].service_status.length; k++) {
+            var service = jsonData[i].node_info[j].service_status[k].service;
+            var status = jsonData[i].node_info[j].service_status[k].status;
+            if(status == "WORKING")
+            {
+                gs.info("Service: " + service );
+                gs.info("Status: " + status);
+                var op = new GlideRecord('u_infra_checklist');
+                op.query();
+                if(op.next()){
+                    op.u_type = 'InfoBlox';
+                    op.u_sub_type = 'InfoBlox Node';
+                    op.u_host_name = hostName;
+                    op.u_service_name = service;
+                    op.u_kemp_status = status;
+                    op.insert(); 
+                
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
